@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './companents/Header'
 import DogeName from './companents/DogeName'
+import DogeImage from './companents/DogeImg'
 import './App.css'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <>
       <Header />
       <DogeName />
+      <DogeImage />
     </>
   )
 }
