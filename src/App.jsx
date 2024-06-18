@@ -36,8 +36,8 @@ function App() {
   return (
     <>
       <Header />
-      <DogeName />
-      <DogeImage />
+      <DogeName randomBreeds={randomBreeds} />
+      <DogeImage randomBreeds={randomBreeds} />
     </>
   )
 }
