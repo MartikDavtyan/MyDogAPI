@@ -1,7 +1,14 @@
 import React from 'react'
+import DogeName from './dogeName.jsx'
 
-export default function index() {
+export default function dogeName(randomBreeds) {
   return (
-    <div>index</div>
+    <>
+      <div className="dogBreeds">
+        {randomBreeds.map((el)=>{
+          return (<DogeName breed={el}/>)
+        })}
+      </div>
+    </>
   )
 }
