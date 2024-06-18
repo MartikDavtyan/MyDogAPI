@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function dogeName() {
+export default function dogeName({breed}) {
   return (
-    <div>dogeName</div>
+    <div>{breed}</div>
   )
 }
