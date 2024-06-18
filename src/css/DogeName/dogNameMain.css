@@ -1,3 +1,10 @@
 .dogBreeds{
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.dogBreed{
+    padding: 10px;
+    margin-right: 10px;
 }
