@@ -3,6 +3,6 @@ import '../../css/DogImg/dogImg.css'
 
 export default function dogImg({url}) {
   return (
-    <img src={url} alt="" />
+    <img className='dog-img' src={url} alt="" />
   )
 }
