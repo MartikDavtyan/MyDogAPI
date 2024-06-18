@@ -15,10 +15,24 @@ function App() {
         setDogBreeds(breeds)
       })
   }, [])
-  console.log(dogBreeds);
+
+  useEffect(() => {
+    if (dogBreeds.length > 0) {
+      function getRandomBreeds() {
+        let arr = []
+        for (let i = 0; i < 10; i++) {
+          let randomIndex = Math.floor(Math.random() * dogBreeds.length)
+          arr.push(dogBreeds[randomIndex])
+        }
+        return arr
+      }
+      setRandomBreeds(getRandomBreeds())
+    }
+  }, [dogBreeds])
+
   return (
     <>
-    
+      
     </>
   )
 }
