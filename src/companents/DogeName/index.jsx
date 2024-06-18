@@ -14,7 +14,6 @@ export default function DogeNameComponent({ randomBreeds }) {
         .then((data) => {
           setDogIMG(data.message);
         })
-        .catch((error) => console.error('Error fetching dog images:', error));
     }
   }, [isOpen, selectedBreed]);
 

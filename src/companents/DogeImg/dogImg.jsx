@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function dogImg() {
+export default function dogImg({url}) {
   return (
-    <div>dogImg</div>
+    <img src={url} alt="" />
   )
 }
