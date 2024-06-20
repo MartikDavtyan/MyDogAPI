@@ -18,7 +18,6 @@ export default function DogeNameComponent({ randomBreeds }) {
     } else {
       setActiv([...aktiv, breed])
     }
-    console.log(aktiv);
   }
   return (
     <>
