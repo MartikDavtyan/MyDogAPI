@@ -29,7 +29,7 @@ export default function Index({ randomBreeds }) {
     <div className="imgMain">
       <DogHeader />
       {images.map((url)=>{
-        return <DogImg url={url} />
+        return <DogImg url={url} key={url}/>
       })}
     </div>
   );
